@@ -78,7 +78,7 @@ console.log(); console.log("O valor de " + valorInicialReal + " reais, convertid
 console.log(); console.log("ATIVIDADE 9: Convertendo Celcius para Fahrenheit:")
 
 var celcius = 37;
-var fahrenheit = (37 * 9 / 5) + 32;
+var fahrenheit = (celcius * 9 / 5) + 32;
 console.log(fahrenheit)
 console.log(); console.log("A temperatura corporal em " + celcius + " º Celcius é equivalente a " + fahrenheit + " º Fahrenheit.")
 
